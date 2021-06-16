@@ -2,12 +2,13 @@
 <html>
 
 <head>
-    <title>Page Layout</title>
+
     <style>
         body {
             margin: 0 auto;
             background-position: center;
             background-size: contain;
+            background-color: #0c0c0c;
         }
         
         .menu {
@@ -18,6 +19,7 @@
             color: white;
             margin: 0 auto;
             overflow: hidden;
+            text-align: center;
         }
         
         .menu a {
@@ -27,11 +29,18 @@
             padding: 14px 16px;
             text-decoration: none;
             font-size: 20px;
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
         }
         
         .menu-log {
             right: auto;
             float: right;
+            margin: 0 auto;
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
         }
         
         footer {
@@ -47,18 +56,23 @@
             font-weight: bold;
         }
         
-        .bc_color {
+        .rectangle {
+            height: 50px;
+            width: 100px;
             background-color: #0c0c0c;
+            position: absolute;
+            border: solid white;
         }
     </style>
 </head>
 
-<body class="bc_color">
+<body>
 
     <!-- Menu Navigation Bar -->
     <div class="menu">
-        <a href="#home">HOME</a>
-        <a href="#news">NEWS</a>
+        <div class="rectangle">
+            <a href="#home">BS\TYPE</a>
+        </div>
         <a href="#notification">NOTIFICATIONS</a>
         <div class="menu-log">
             <a href="#login">LOGIN</a>
