@@ -17,6 +17,7 @@ body {
 }
 
 .body {
+    background-color: #0c0c0c;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
