@@ -67,6 +67,11 @@ ul.no-bullets {
     /* Remove margins */
 }
 
+p.bottom-text {
+    color: white;
+    font-weight: 100;
+}
+
 @media (min-width: 500px) {
     ul {
         grid-auto-flow: column;
