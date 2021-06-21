@@ -5,4 +5,6 @@ going to change the front-end
 
 still editinf the front-end, looks shit at the moment
 
-going to try and learn new languages -> will be using 
+going to try and learn new languages
+
+will be using -> https://www.freecodecamp.org/learn/ for learning front.end
