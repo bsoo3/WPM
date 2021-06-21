@@ -5,4 +5,4 @@ going to change the front-end
 
 still editinf the front-end, looks shit at the moment
 
-going to learn javascript and other lanugages!
+going to try and learn new languages
