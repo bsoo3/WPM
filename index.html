@@ -1,54 +1,128 @@
-<!DOCTYPE html>
-<html>
-<!--
-    code is still shit, dont judge
--->
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+    background-color: #0c0c0c;
+}
 
-<head>
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #0c0c0c;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
-    <link rel="stylesheet" href="style.css" type="text/css">
+.body {
+    background-color: #0c0c0c;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 1.3;
+    width: 100%;
+    font-size: 20px;
+}
 
-    <div class="header">
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+}
 
-        <a class="rectangle">BS\TYPE</a>
+ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
 
-        <div class="header-right">
+#bottom-text {
+    color: white;
+    font-weight: 100;
+}
 
-            <a href="#contact" class="rectangle">Contact</a>
-            <a href="#about" class="rectangle">LOGIN</a>
+@media (min-width: 500px) {
+    ul {
+        grid-auto-flow: column;
+    }
+}
 
-        </div>
+a {
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
 
-    </div>
+a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
 
-</head>
+li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
 
-<body>
+.div-footer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    line-height: 1.3;
+}
 
-    <!-- Menu Navigation Bar -->
+.header {
+    overflow: hidden;
+    background-color: #0c0c0c;
+    padding: 25px 25px 25px 25px;
+    font-family: Menlo, monospace;
+}
 
+.rectangle {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #0c0c0c;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    font-family: Menlo, monospace;
+}
 
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    font-family: Menlo, monospace;
+}
 
-    <!-- Body section -->
-    <div class="body">
+.header-right {
+    float: right;
+    font-family: Menlo, monospace;
+}
 
-        <p>body</p>
-
-    </div>
-
-    <!-- Footer Section -->
-    <footer>
-        <div>
-            <ul class="no-bullets">
-                <li><a href=" https://etherscan.io/address/0x0FfE98F848Fa08CFE06bc328eD7CaD2824b15172 ">Ethereum</a></li>
-                <li>
-                    <a href="mailto:onedobeb0@gmail.com ">E-mail</a>
-                </li>
-                <li><a href="https://github.com/bsoo3 ">Github</a></li>
-            </ul>
-        </div>
-        <p id="bottom-text">Benjamin, 2021</p>
-    </footer>
-
-</html>
+a+a {
+    margin-left: 25px;
+}
