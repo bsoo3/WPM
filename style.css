@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     text-align: center;
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .body {
@@ -22,6 +23,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
+    color: white;
 }
 
 footer {
@@ -37,6 +39,21 @@ footer {
 }
 
 .rectangle {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #0c0c0c;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+}
+
+.rectangle-login {
+    top: 0;
+    right: 0;
     font-family: Georgia, serif;
     height: 40px;
     width: 100px;
@@ -67,7 +84,7 @@ ul.no-bullets {
     /* Remove margins */
 }
 
-p.bottom-text {
+#bottom-text {
     color: white;
     font-weight: 100;
 }
