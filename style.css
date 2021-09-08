@@ -43,6 +43,10 @@
     background-color: #0c0c0c;
     font-family: Menlo, monospace;
     color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-socials {
@@ -73,6 +77,7 @@
     width: 100%;
     height: 100px;
     line-height: 1.3;
+    font-size: 18px;
 }
 
 ul {
@@ -85,11 +90,8 @@ ul {
 
 ul.no-bullets {
     list-style-type: none;
-    /* Remove bullets */
     padding: 0;
-    /* Remove padding */
     margin: 0;
-    /* Remove margins */
 }
 
 @media (min-width: 500px) {
@@ -127,4 +129,183 @@ li:last-child {
     align-items: center;
     border-color: white;
     border-style: solid;
+}
+
+.rectangle-body {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.container-enter {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}.website {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    margin: 0 auto;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.container-header {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    overflow: hidden;
+}
+
+.bstype {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    float: left;
+    font-size: 18px;
+    padding: 25px 25px 25px 25px;
+}
+
+.stats {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 25px 25px 25px 3px;
+}
+
+.login {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 25px 15px 25px 15px;
+}
+
+.container-body {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-socials {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+}
+
+.socials {
+    display: inline-block;
+}
+
+.container-footer {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    line-height: 1.3;
+}
+
+.div-footer {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 1.3;
+    font-size: 18px;
+}
+
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 500px) {
+    ul {
+        grid-auto-flow: column;
+    }
+}
+
+li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.a-socials {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+}
+
+.bottom-text {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white
+}
+
+.rectangle {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+}
+
+.rectangle-body {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.container-enter {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
