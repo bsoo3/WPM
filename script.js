@@ -5,12 +5,12 @@ const timerElement = document.getElementById('timer')
 
 function getRandomQuote() {
     return fetch(RANDOM_QUOTE_API_URL)
-        .then(response => response.json)
+        .then(response => response.json())
         .then(data => data.content)
 }
 
 async function renderNewQuote() {
-    const quote = awit getRandomQuote()
+    const quote = await getRandomQuote()
     quoteDisplayElement.innerText = quote
 }
 
