@@ -173,9 +173,11 @@ li:last-child {
 
 .correct {
     color: green;
+    font-family: Menlo, monospace;
 }
 
 .incorrect {
     color: red;
+    font-family: Menlo, monospace;
     text-decoration: underline;
 }
