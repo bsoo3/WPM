@@ -12,6 +12,10 @@ function getRandomQuote() {
 async function renderNewQuote() {
     const quote = await getRandomQuote()
     quoteDisplayElement.innerText = quote
+    quote.split('').forEach(character => {
+        const characterSpan = document.createElement('span')
+    })
+    quoteInputElement.value = null
 }
 
 renderNewQuote()
