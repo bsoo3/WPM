@@ -6,7 +6,7 @@ const timerElement = document.getElementById('timer')
 //every time you type it detects it
 quoteInputElement.addEventListener('input', () => {
     const arrayQuote = quoteDisplayElement.querySelectorAll('span')
-    const arrayValue = quoteInputElement.split('')
+    const arrayValue = quoteInputElement.value.split('')
     let correct = true
 
     arrayQuote.forEach((characterSpan, index) => {
