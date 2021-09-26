@@ -7,6 +7,29 @@ const timerElement = document.getElementById('timer')
 quoteInputElement.addEventListener('input', () => {
     const arrayQuote = quoteDisplayElement.querySelectorAll('span')
     const arrayValue = quoteInputElement.split('')
+    let correct = true
+
+    arrayQuote.forEach((characterSpan, index) => {
+
+        const character = arrayValue[index]
+
+        if (character == null) {
+            characterSpan.classList.remove('correct')
+            characterSpan.classList.remove('incorrect')
+            correct = false
+
+        } else if (character === characterSpan.innerText) {
+            characterSpan.classList.add('correct')
+            characterSpan.classList.remove('incorrect')
+
+        } else {
+            characterSpan.classList.remove('correct')
+            characterSpan.classList.add('incorrect')
+            correct = false
+        }
+    })
+
+    if (correct) renderNewQuote()
 })
 
 
