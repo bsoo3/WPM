@@ -3,6 +3,13 @@ const quoteDisplayElement = document.getElementById('quoteDisplay')
 const quoteInputElement = document.getElementById('quoteInput')
 const timerElement = document.getElementById('timer')
 
+//every time you type it detects it
+quoteInputElement.addEventListener('input', () => {
+    const arrayQuote = quoteDisplayElement.querySelectorAll('span')
+    const arrayValue = quoteInputElement.split('')
+})
+
+
 function getRandomQuote() {
     return fetch(RANDOM_QUOTE_API_URL)
         .then(response => response.json())
