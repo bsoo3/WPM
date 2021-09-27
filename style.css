@@ -171,12 +171,12 @@ li:last-child {
     background-color: transparent;
     border: 2px solid white;
     outline: none;
-    width: 100%;
+    width: 400px;
     height: 8rem;
-    margin: auto;
+    margin-right: 10%;
     resize: none;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 18px;
     border-radius: .5rem;
     color: white;
 }
