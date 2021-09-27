@@ -80,6 +80,7 @@
     height: 100px;
     line-height: 1.3;
     font-size: 18px;
+    margin-bottom: 1%;
 }
 
 ul {
@@ -116,7 +117,8 @@ li:last-child {
 .bottom-text {
     background-color: #0c0c0c;
     font-family: Menlo, monospace;
-    color: white
+    color: white;
+    margin-bottom: 10%;
 }
 
 .rectangle {
