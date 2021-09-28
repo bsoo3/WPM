@@ -50,4 +50,6 @@ async function renderNewQuote() {
     quoteInputElement.value = null
 }
 
+
+
 renderNewQuote()
