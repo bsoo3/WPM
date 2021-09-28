@@ -9,4 +9,3 @@ was on vacation, will start soon, mybe even todaz
 
 going to try and learn new languages
 
-will be using -> https://www.freecodecamp.org/learn/ for learning front.end
