@@ -3,7 +3,8 @@ WPM-front-end
 
 going to change the front-end
 
-still editinf the front-end, looks shit at the moment
+still editing the front-end, looks shit at the moment
+
 
 was on vacation, will start soon, mybe even todaz
 
