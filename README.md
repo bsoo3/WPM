@@ -1,6 +1,9 @@
 # WPM-front-end
 WPM-front-end
 
+KAKO SE MI NEDA MANNNN KAJ JE TA PETEK
+
+
 going to change the front-end
 
 still editing the front-end, looks shit at the moment
