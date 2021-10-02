@@ -195,8 +195,8 @@ li:last-child {
     border-color: white;
 }
 
-.correct {
-    color: green;
+.done {
+    color: lightskyblue;
     font-family: Menlo, monospace;
 }
 
@@ -219,4 +219,28 @@ li:last-child {
     color: white;
     text-align: center;
     margin: 200px;
+}
+
+.cursor {
+    background-color: grey;
+}
+
+#stats {
+    font-family: Menlo, monospace;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+#wpm {
+    font-family: Menlo, monospace;
+    color: white;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.wpm {
+    font-family: Menlo, monospace;
+    color: white;
 }
