@@ -97,6 +97,11 @@ document.addEventListener("keydown", ({ key }) => {
 
     if (cursorIndex >= characters.length) {
         endTime = new Date();
+        const delta = endTime - startTime;
+        const seconds = delta / 1000;
+        const numberOfWords
     }
+
+    //display wpm
 
 });
