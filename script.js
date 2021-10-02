@@ -56,12 +56,20 @@ renderNewQuote()
 */
 
 
-const typingDiv = document.getElementById("typing")
-
-console.log(typingDiv)
+const typingDiv = document.getElementById("typing");
 
 
 const text = `The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions).`
 
+const characters = text.split('').map(char => {
 
-typingDiv.innerText = text;
+    //besedilo splittamo v span kjer je vsaka crka zapisana posebej
+    const span = document.createElement('span')
+    span.innerText = char;
+    typingDiv.appendChild(span);
+    return span;
+});
+
+const firstCharacter = characters[0];
+
+firstCharacter.classList.add("cursor");
