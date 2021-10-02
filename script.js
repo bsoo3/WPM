@@ -59,7 +59,8 @@ renderNewQuote()
 const typingDiv = document.getElementById("typing");
 
 
-const text = `The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions).`
+const text = `The oldest classical` //Greek and Latin writing had little or no space between words and could be written in boustrophedon(alternating directions).
+
 
 const characters = text.split('').map(char => {
 
@@ -79,29 +80,30 @@ let startTime = null;
 let endTime = null;
 
 //zazna ko napisemo 1. crko
-document.addEventListener("keydown", ({ key }) => {
-    console.log(key)
+const keyListener = document.addEventListener("keydown", ({ key }) => {
+
     if (!startTime) {
         startTime = new Date();
-
     }
     //zdej bomo preverli če je prvi character, ki ga mi napisemo isti kot tist v paragrafu
     if (key === cursorCharacter.innerText) {
         //we typed the correct key
-
-        cursorCharacter.classList.remove('cursor');
+        cursorCharacter.classList.remove("cursor");
         cursorCharacter.classList.add("done");
         cursorCharacter = characters[++cursorIndex];
-        cursorCharacter.classList.add("cursor");
     }
 
     if (cursorIndex >= characters.length) {
-        endTime = new Date();
+        const endTime = new Date();
         const delta = endTime - startTime;
         const seconds = delta / 1000;
-        const numberOfWords
+        const numberOfWords = text.split(" ").length;
+        const wps = numberOfWords / seconds;
+        const wpm = wps * 60.0;
+        document.getElementById("wpm").innerText = `wpm = ${parseInt(wpm)}`;
+        document.removeEventListener("keydown", keyListener);
+        return;
     }
 
-    //display wpm
-
+    cursorCharacter.classList.add("cursor");
 });
