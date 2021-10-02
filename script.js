@@ -1,3 +1,5 @@
+/*
+
 const RANDOM_QUOTE_API_URL = 'http://api.quotable.io/random'
 const quoteDisplayElement = document.getElementById('quoteDisplay')
 const quoteInputElement = document.getElementById('quoteInput')
@@ -49,7 +51,17 @@ async function renderNewQuote() {
     })
     quoteInputElement.value = null
 }
+renderNewQuote() 
+    
+*/
 
 
+const typingDiv = document.getElementById("typing")
 
-renderNewQuote()
+console.log(typingDiv)
+
+
+const text = `The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions).`
+
+
+typingDiv.innerText = text;
