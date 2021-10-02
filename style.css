@@ -136,7 +136,7 @@ li:last-child {
 }
 
 .rectangle-body {
-    background-color: white;
+    background-color: #0c0c0c;
     font-family: Menlo, monospace;
     color: white;
     height: 500px;
@@ -176,6 +176,7 @@ li:last-child {
 }
 
 .quote-input {
+    background-color: #0c0c0c;
     background-color: transparent;
     border: 2px solid white;
     outline: none;
@@ -206,6 +207,16 @@ li:last-child {
 }
 
 #typing {
+    background-color: #0c0c0c;
     font-family: Menlo, monospace;
     font-size: 18px;
+    color: white;
+}
+
+.typing {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    margin: 200px;
 }
