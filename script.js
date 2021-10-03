@@ -27,7 +27,10 @@ const keyListener = document.addEventListener("keydown", ({ key }) => {
     if (!startTime) {
         startTime = new Date();
     }
+
     //zdej bomo preverli če je prvi character, ki ga mi napisemo isti kot tist v paragrafu
+    let correct = true;
+
     if (key === cursorCharacter.innerText) {
         //we typed the correct key
         cursorCharacter.classList.remove("cursor");
