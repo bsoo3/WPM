@@ -10,7 +10,7 @@ const pharagraphs = [
     `The box sat on the desk next to the computer. It had arrived earlier in the day and business had interrupted her opening it earlier.`,
     `The cab arrived late. The inside was in as bad of shape as the outside which was concerning, and it didn't appear that it had been cleaned in months.`,
     `The leather jacked showed the scars of being his favorite for years. It wore those scars with pride, feeling that they enhanced his presence rather than diminishing it.`,
-    `It's an unfortunate reality that we don't teach people how to make money (beyond getting a 9 to 5 job) as part of our education system. The truth is there are a lot of different, legitimate ways to make money.`,
+    `It's an unfortunate reality that we don't teach people how to make money (beyond getting a 9 to 5 job) as part of our education system.`,
     `One can cook on and with an open fire. These are some of the ways to cook with fire outside. Cooking meat using a spit is a great way to evenly cook meat.Som`,
     `I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of backwardly referential semantics and other mumbo-jumbo.`,
     `Samantha wanted to be famous. The problem was that she had never considered all the downsides to actually being famous.`,
@@ -46,15 +46,14 @@ const keyListener = document.addEventListener("keydown", ({ key }) => {
     }
 
     //zdej bomo preverli če je prvi character, ki ga mi napisemo isti kot tist v paragrafu
-    //let correct = true;
+
 
     if (key === cursorCharacter.innerText) {
         cursorCharacter.classList.remove("cursor");
-        cursorCharacter.classList.add("done");
+        cursorCharacter.classList.add("true");
         cursorCharacter = characters[++cursorIndex];
-    } else {
-
     }
+
 
     if (cursorIndex >= characters.length) {
         const endTime = new Date();
