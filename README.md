@@ -1,7 +1,6 @@
-# WPM-front-end
-WPM-front-end
+#matura final project
 
-KAKO SE MI NEDA MANNNN KAJ JE TA PETEK
+LEZ GET IT
 
 
 going to change the front-end
@@ -10,7 +9,6 @@ still editing the front-end, looks shit at the moment
 
 will need to build a data base for login in
 
-was on vacation, will start soon, mybe even todaz
 
 going to try and learn new languages
 
