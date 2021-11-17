@@ -1,9 +1,9 @@
 .website {
     background-color: #0c0c0c;
     font-family: Menlo, monospace;
-    margin: 0 auto;
     background-size: contain;
     overflow: hidden;
+    
 }
 
 .container-header {
@@ -28,6 +28,8 @@
     float: right;
     font-size: 18px;
     padding: 43px 25px 25px 3px;
+    text-decoration: none;
+
 }
 
 .login {
@@ -37,6 +39,7 @@
     float: right;
     font-size: 18px;
     padding: 43px 15px 25px 15px;
+    text-decoration: none;
 }
 
 .container-body {
@@ -230,6 +233,7 @@ li:last-child {
     font-size: 18px;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 #wpm {
@@ -243,4 +247,14 @@ li:last-child {
 .wpm {
     font-family: Menlo, monospace;
     color: white;
+}
+
+a:link {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #2B2B2B;
 }
