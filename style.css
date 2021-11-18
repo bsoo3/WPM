@@ -258,3 +258,13 @@ a:hover {
     text-decoration: none;
     background-color: #2B2B2B;
 }
+
+.text{
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: #8A8A8A;
+}
