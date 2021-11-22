@@ -271,9 +271,34 @@ a:hover {
     content: "wassup";
 }
 @media screen and (max-width:800px) {
+    .website{
+        
+    }
+    .true {
+        color: #0c0c0c
+    }
+    .container-socials {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .container-footer{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .div-footer{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .a-socials {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .bottom-text {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
     .test  ::before{
-        color: white;
-        content: "HELLO SER";
+        color: #0c0c0c;
     }
     .text{
         background-color: #0c0c0c;
@@ -288,7 +313,7 @@ a:hover {
         color: #0c0c0c
     }
     .cursor {
-        background-color: white;
+        background-color: #0c0c0c;
     }
     #wpm{
         color: #0c0c0c;
