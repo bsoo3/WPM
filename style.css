@@ -3,7 +3,6 @@
     font-family: Menlo, monospace;
     background-size: contain;
     overflow: hidden;
-    
 }
 
 .container-header {
@@ -267,4 +266,68 @@ a:hover {
     background-color: #0c0c0c;
     font-family: Menlo, monospace;
     color: #8A8A8A;
+}
+.test{
+    content: "wassup";
+}
+@media screen and (max-width:800px) {
+    .test  ::before{
+        color: white;
+        content: "HELLO SER";
+    }
+    .text{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .typing{
+        background-color: #0c0c0c;
+        color: #0c0c0c;
+    }
+    #typing{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .cursor {
+        background-color: white;
+    }
+    #wpm{
+        color: #0c0c0c;
+    }
+    .wpm{
+        color: #0c0c0c;
+    }
+    .rectangle {
+        background-color: #0c0c0c;
+        color: #0c0c0c;
+        border-color: #0c0c0c;
+    }
+    .rectangle-body {
+        background-color: #0c0c0c;
+        color: #0c0c0c;
+        border-color: #0c0c0c;
+    }
+    .bstype {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .stats{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .login{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .container-body {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .container-socials {
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
+    .container-footer{
+        background-color: #0c0c0c;
+        color: #0c0c0c
+    }
 }
