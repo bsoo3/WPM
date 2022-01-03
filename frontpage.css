@@ -1,0 +1,14 @@
+.body{
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    position: relative;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.login{
+    color: white;
+}
