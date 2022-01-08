@@ -1,14 +1,19 @@
-.body{
-    background-color: #0c0c0c;
-    font-family: Menlo, monospace;
-    color: white;
-    position: relative;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  
+html, body {
+  height: 100%;
 }
 
-.login{
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  background-color: #0c0c0c;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.frontpage{
     color: white;
+    vertical-align: middle;
 }
