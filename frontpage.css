@@ -11,9 +11,13 @@ body {
   background-color: #0c0c0c;
   display: table-cell;
   vertical-align: middle;
+  margin: 0 auto;
 }
 
-.frontpage{
-    color: white;
-    vertical-align: middle;
+.login, .signup{
+  border: 10px solid #0c0c0c;
+  color: white;
+  vertical-align: middle;
+  float: left;
 }
+
