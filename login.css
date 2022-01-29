@@ -6,7 +6,7 @@ body{
     color: white;
     display: table-cell;
     vertical-align: middle;
-    margin: 0 auto;
+    margin:  0 auto;
     height: 100%;
     font-size: 20px;
 }
@@ -27,6 +27,7 @@ html {
     float: left;
 }
 
+
 input{
     background-color: #0c0c0c;
     color: white;
@@ -38,6 +39,7 @@ input{
     color: white;
     font-family: Menlo, monospace;
     width: 300px;
-    height: 3%;
+    height: 30px;
     margin-top: 5px;
+    font-size: 15px;
 }
