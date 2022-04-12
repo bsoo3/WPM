@@ -2,13 +2,9 @@
 
 FINALY UPPLOADED THE WEBSITE ---> https://bstyping.com/
 
+completed the website, deadline is on the 14.4.2022
 
-going to change the front-end
+after scholl will improve it!
 
-still editing the front-end, looks shit at the moment
-
-will need to build a data base for login in
-
-
-going to try and learn new languages
+-bs
 
