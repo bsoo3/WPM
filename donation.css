@@ -1,0 +1,17 @@
+.metamask{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: Menlo, monospace;
+    font-size: 25px;
+}
+
+
+.donation{
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+
+}
+.top{
+    font-size: 50px;
+}

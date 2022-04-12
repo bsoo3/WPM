@@ -1,0 +1,273 @@
+.website {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    background-size: contain;
+}
+
+.container-header {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+
+.bstypelink {
+    color: white;
+    text-decoration: white;
+}
+
+.bstype {
+    font-family: Menlo, monospace;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.stats {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 43px 25px 25px 3px;
+    text-decoration: none;
+}
+
+.user {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 43px 15px 25px 15px;
+    text-decoration: none;
+}
+
+.container-body {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.container-socials {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+}
+
+.socials {
+    display: inline-block;
+}
+
+.container-footer {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+}
+
+.div-footer {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 1.3;
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 500px) {
+    ul {
+        grid-auto-flow: column;
+    }
+}
+
+li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.a-socials {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+}
+
+.bottom-text {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.rectangle {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    height: 60px;
+    width: 110px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+}
+
+.rectangle-body {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 7px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.container-input {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-display {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote-display {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+    z-index: 9;
+}
+
+.quote-input {
+    background-color: #0c0c0c;
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    margin-right: 10%;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    border-radius: .5rem;
+    color: white;
+    margin: 100px 100px 20px 100px;
+}
+
+.quote-input:focus {
+    border-color: white;
+}
+
+.true {
+    color: lightskyblue;
+    font-family: Menlo, monospace;
+}
+
+.false {
+    color: red;
+    font-family: Menlo, monospace;
+    text-decoration: underline;
+}
+
+#typing {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.typing {
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    margin: 20%;
+}
+
+.cursor {
+    background-color: grey;
+}
+
+#stats {
+    font-family: Menlo, monospace;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.display {
+    content: none;
+}
+
+#wpm {
+    font-family: Menlo, monospace;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
+
+a:link {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #2B2B2B;
+}
+
+.text {
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background-color: #0c0c0c;
+    font-family: Menlo, monospace;
+    color: #8A8A8A;
+}
+
